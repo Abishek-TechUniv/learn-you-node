@@ -1,6 +1,6 @@
 const calculate = require('./sync.js');
 
-const file1 = './ex3/emptyFile';
+const file1 = './misc/emptyFile';
 
 test('should return zero for an empty file', () => {
   expect(calculate(file1)).toBe(0);
