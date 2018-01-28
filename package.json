@@ -14,5 +14,8 @@
     "coverage": "jest --coverage --notify"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bl": "^1.2.1"
+  }
 }
