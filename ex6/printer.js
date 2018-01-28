@@ -12,4 +12,4 @@ const logger = (path, extension, call) => {
 };
 
 module.exports = logger;
-logger(process.argv[2], process.argv[3], console.log);
+// logger(process.argv[2], process.argv[3], console.log);
