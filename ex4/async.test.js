@@ -8,7 +8,7 @@ describe('when passed a file', () => {
       expect(data).toBe(0);
       done();
     };
-    numberOfLines('./misc/EmptyFile', call);
+    numberOfLines('./misc/EmptyFile.txt', call);
   });
 
   it('should return number of lines if file not empty', (done) => {
@@ -16,7 +16,7 @@ describe('when passed a file', () => {
       expect(data).toBe(4);
       done();
     };
-    numberOfLines('./misc/nonEmptyFile', call);
+    numberOfLines('./misc/nonEmptyFile.txt', call);
   });
 
   it('should return error code if file doesn\'t exist', (done) => {
