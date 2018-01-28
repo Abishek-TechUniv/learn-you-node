@@ -10,8 +10,8 @@ const filteredList = (dirName, extension, callback) => {
 
 module.exports = filteredList;
 
-const extension = (process.argv[3] === undefined) ? '' : process.argv[3];
-const print = list => list.forEach((element) => {
-  console.log(element);
-});
-filteredList(process.argv[2], extension, print);
+// const extension = (process.argv[3] === undefined) ? '' : process.argv[3];
+// const print = list => list.forEach((element) => {
+//   console.log(element);
+// });
+// filteredList(process.argv[2], extension, print);
